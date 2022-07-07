@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "allowJs": true,
+    "baseUrl": "./",
+    "incremental": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@src/*": ["src/*"],
+      "@modules/*": ["src/modules/*"],
+      "@config/*": ["src/infrastructure/configs/*"],
+      "@exceptions": ["src/libs/exceptions"],
+      "@libs/*": ["src/libs/*"]
+    }
+  },
+  "include": ["./src/@types/*.d.ts"]
+}
